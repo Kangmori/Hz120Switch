@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_hz"
+        android:shortcutId="toggle"
+        android:shortcutLongLabel="@string/shortcut_long"
+        android:shortcutShortLabel="@string/shortcut_short">
+        <intent
+            android:action="com.dsh.hz120.action.TOGGLE"
+            android:targetClass="com.dsh.hz120.ToggleActivity"
+            android:targetPackage="com.dsh.hz120" />
+    </shortcut>
+
+</shortcuts>

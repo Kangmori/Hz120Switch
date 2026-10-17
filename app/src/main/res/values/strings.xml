@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">120Hz 开关</string>
+
+    <string name="screen_label">刷新率</string>
+    <string name="card_title">当前状态</string>
+    <string name="row_peak">peak_refresh_rate</string>
+    <string name="row_mode">显示模式</string>
+    <string name="row_shell">shell uid</string>
+
+    <string name="state_on">已开启</string>
+    <string name="state_off">已关闭</string>
+    <string name="state_on_sub">强制 120Hz · LTPO 暂停自适应</string>
+    <string name="state_off_sub">系统自适应 · 更省电</string>
+
+    <string name="action_on">开启 120Hz</string>
+    <string name="action_off">关闭 120Hz</string>
+    <string name="action_authorize">授权 Shizuku</string>
+    <string name="add_shortcut">添加桌面快捷方式</string>
+
+    <string name="tile_hint">提示：开启后 LTPO 不再自动降频，耗电会增加，游戏结束请关闭。重启手机后需重新启动 Shizuku 并再次开启。</string>
+
+    <string name="toast_on">已开启 120Hz</string>
+    <string name="toast_off">已关闭，恢复自适应</string>
+    <string name="permission_granted">已授权</string>
+    <string name="permission_denied">权限被拒绝</string>
+    <string name="permission_failed">请求权限失败：%1$s</string>
+    <string name="not_authorized">未授权</string>
+    <string name="not_authorized_sub">点击下方按钮授权 Shizuku</string>
+    <string name="shizuku_not_running">Shizuku 未运行</string>
+    <string name="shizuku_not_running_sub">请先启动 Shizuku（无线调试或 root）</string>
+    <string name="authorize_in_shizuku">请在 Shizuku 应用内授权</string>
+
+    <string name="pin_unsupported">当前桌面不支持固定快捷方式</string>
+    <string name="pin_requested">已请求添加，请在桌面确认</string>
+    <string name="pin_failed">添加失败</string>
+
+    <string name="shortcut_short">切换 120Hz</string>
+    <string name="shortcut_long">开启或关闭强制 120Hz</string>
+
+    <string name="tile_label">120Hz</string>
+    <string name="tile_on">120Hz 已开启</string>
+    <string name="tile_off">120Hz 自适应</string>
+</resources>
