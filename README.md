@@ -46,13 +46,15 @@
 
 ## 安装
 
-已经编译好的 APK：`build-manual/Hz120Switch.apk`
+从 Releases 下载最新 APK：
+
+**https://github.com/Kangmori/Hz120Switch/releases/latest**
 
 ```powershell
-adb install -r Hz120Switch.apk
+adb install -r Hz120Switch-1.0.apk
 ```
 
-debug 签名，包名 `com.dsh.hz120`。
+debug 签名，包名 `com.dsh.hz120`。仓库里不放二进制，APK 只挂在 Releases 上。
 
 ## 使用
 
